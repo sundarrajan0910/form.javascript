@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(215, 224, 224);
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: 1px solid black;
+    width: 50vh;
+    margin-top: 5vh;
+    background-color: whitesmoke;
+    padding: 30px;
+
+}
+h1{
+    color: rgb(103, 78, 126);
+    text-align: center;
+}
+.group-control{
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+  margin-bottom: 15px;
+  font-size:18px ;
+  margin-top: 3px;
+ 
+}
+.group-control input{
+    padding: 8px 8px;
+    outline: none;
+    font-size: 16px;
+
+    
+}
+.group-control .error{
+    font-size: 16px;
+    color: red;
+    margin-top: 7px;
+}
+button{
+    width: 100%;
+    padding: 8px 5px;
+    margin: 20px 0 ;
+    background-color: rgb(103, 78, 126);
+    color: aliceblue;
+}
+i{
+    font-size: 20px;
+}
+
+.group-control.success input{
+  border: 1px solid rgb(53, 196, 148);
+}
+
+.group-control.error input{
+    border: 1px solid red;
+}
+.fa-user{
+    position: absolute;
+    margin-top: 2.3%;
+    margin-left:28% ;
+  
+}
+.fa-envelope{
+    position: absolute;
+ margin-top: 2.3%;
+ margin-left: 28%;
+  
+}
+input[type=date]{
+font-size: 20px;
+
+}
+.fa-phone{
+    position: absolute;
+ margin-top: 2.3%;
+ margin-left: 28%;
+  
+}
+@media screen and (max-width:320px) {
+    .fa-user{
+        margin-top: 9%;
+    margin-left:65% ;
+    }
+    .fa-envelope{
+        position: absolute;
+     margin-top: 10%;
+     margin-left: 65%;
+      
+    }
+    .fa-phone{
+        position: absolute;
+     margin-top: 9%;
+     margin-left: 65%;
+      
+    }
+    
+}
